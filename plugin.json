@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "extensive-prompt-architect",
+  "version": "0.3.0",
+  "description": "Turn rough ideas, briefs, and drafts into ready-to-use prompts for AI assistants.",
+  "repository": "https://github.com/Ext7/extensive-prompt-architect",
+  "author": { "name": "NITI", "url": "https://chromewebstore.google.com/detail/daily-task-planner/bgepeodnammpjgcplhljjdefemgpbjnm" },
+  "keywords": ["prompts", "writing", "research", "coding", "productivity"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Extensive Prompt Architect",
+        "shortDescription": "Turn ideas into usable prompts",
+        "longDescription": "Transform a rough idea, task, or draft into a structured prompt for ChatGPT, Codex, Claude, Gemini, or another assistant. Published by NITI, a local-first task planner for the browser.",
+        "developerName": "NITI",
+        "category": "Productivity",
+        "capabilities": ["Improve prompts", "Draft detailed technical briefs"],
+        "composerIcon": "./assets/icon.svg",
+        "logo": "./assets/icon.svg",
+        "defaultPrompt": [
+          "Turn this rough idea into a prompt for ChatGPT.",
+          "Improve this prompt for Claude Code.",
+          "Create a research prompt from these notes."
+        ]
+      }
+    }
+  }
+}

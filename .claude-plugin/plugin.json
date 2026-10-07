@@ -1,0 +1,8 @@
+{
+  "name": "extensive-prompt-architect",
+  "displayName": "Extensive Prompt Architect",
+  "version": "0.3.0",
+  "description": "Turn rough ideas, briefs, and drafts into ready-to-use AI prompts.",
+  "author": { "name": "NITI", "url": "https://chromewebstore.google.com/detail/daily-task-planner/bgepeodnammpjgcplhljjdefemgpbjnm" },
+  "keywords": ["prompts", "writing", "research", "coding", "productivity"]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "extensive-prompt-architect",
+  "version": "0.3.0",
+  "description": "Install the Extensive Prompt Architect skill for Codex, Claude Code, Cursor, or Gemini CLI.",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ext7/extensive-prompt-architect.git"
+  },
+  "bin": {
+    "epa-install": "./bin/install.mjs"
+  },
+  "files": [
+    "bin/",
+    "skills/",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "install:skill": "node bin/install.mjs",
+    "check": "node --check bin/install.mjs"
+  }
+}

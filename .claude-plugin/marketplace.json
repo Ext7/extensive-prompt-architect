@@ -1,0 +1,17 @@
+{
+  "name": "niti-plugins",
+  "description": "NITI plugins for more useful AI workflows",
+  "owner": {
+    "name": "NITI"
+  },
+  "plugins": [
+    {
+      "name": "extensive-prompt-architect",
+      "source": {
+        "source": "github",
+        "repo": "Ext7/extensive-prompt-architect"
+      },
+      "description": "Turn rough ideas and drafts into detailed, ready-to-use prompts."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "niti-plugins",
+  "interface": {
+    "displayName": "NITI plugins"
+  },
+  "plugins": [
+    {
+      "name": "extensive-prompt-architect",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Ext7/extensive-prompt-architect.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
