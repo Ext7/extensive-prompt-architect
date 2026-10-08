@@ -4,7 +4,7 @@
 
 Published by [NITI](https://chromewebstore.google.com/detail/daily-task-planner/bgepeodnammpjgcplhljjdefemgpbjnm). [Русская версия](README.ru.md) · [Website](https://ext7.github.io/extensive-prompt-architect/) · [Report an issue](https://github.com/Ext7/extensive-prompt-architect/issues)
 
-[Detailed installation guide in Russian](INSTALL.ru.md).
+[Detailed installation guide in Russian](INSTALL.ru.md) · [Custom GPT setup (Russian)](GPT-SETUP.ru.md).
 
 A local prompt improvement plugin from NITI. It turns a rough idea, draft, brief, or notes into one ready-to-copy prompt for an AI assistant. Complex development briefs use a separate deep-blueprint guide so they ask for algorithms, data and state models, integration limits, failure recovery, UI, validation, and backlog at implementation depth. It can also answer directly when asked. One shared skill supplies the behavior in ChatGPT, Codex, and Claude; there is no server, API key, account, or additional data transfer by this plugin.
 
