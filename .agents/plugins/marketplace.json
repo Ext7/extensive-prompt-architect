@@ -7,9 +7,8 @@
     {
       "name": "extensive-prompt-architect",
       "source": {
-        "source": "url",
-        "url": "https://github.com/Ext7/extensive-prompt-architect.git",
-        "ref": "main"
+        "source": "local",
+        "path": "./"
       },
       "policy": {
         "installation": "AVAILABLE",
